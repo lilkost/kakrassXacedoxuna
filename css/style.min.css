@@ -784,3 +784,8 @@ body {
 .footer span {
     color: #fff !important;
 }
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 30px;
+}

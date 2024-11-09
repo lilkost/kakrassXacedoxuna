@@ -76,10 +76,23 @@ if(document.querySelector(".top__box")) {
         }
     
         setPositionBLock();
+
+        setTimeout(()=>{ 
+            setPositionBLock();
+        },300)
     
         window.addEventListener("resize", ()=> {
             setPositionBLock();
         })
     })
+}
 
+if(document.querySelector(".header__nav-item")) {
+    const links = document.querySelectorAll(".header__nav-item a");
+
+    links.forEach(link=> {
+        link.addEventListener("click", ()=> {
+            document.querySelector(".header").classList.remove("is-active");
+        })
+    })
 }
