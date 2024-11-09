@@ -283,6 +283,9 @@
     .header__nav{
         top: 37px;
     }
+    .for-whom__img::before{
+        left: -20px;
+    }
 }
 @media (max-width: 400px) {
     .footer__inner {
@@ -301,5 +304,8 @@
     }
     .program__accordion-top {
         font-size: 9px;
+    }
+    .for-whom__img::before{
+        left: -15px;
     }
 }
