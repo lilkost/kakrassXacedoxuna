@@ -19,6 +19,17 @@
     font-display: swap
 }
 
+@font-face {
+    font-family: 'Krasnodar Grotesk Trial en';
+    src: url('../fonts/logo/KrasnodarGroteskTrial-Regular.woff2') format('woff2'),
+        url('../fonts/logo/KrasnodarGroteskTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 html {
     box-sizing: border-box
 }
@@ -496,6 +507,7 @@ body {
     content: url(../images/no-deleted/decor/10.png);
     position: absolute;
     top: -10px;
+    right: 0;
 }
 .program__title {
     max-width: max-content;
@@ -788,5 +800,12 @@ body {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding: 30px;
+}
+
+.logo{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.36px;
+    color: #fff;
+    font-family: 'Krasnodar Grotesk Trial en';
 }

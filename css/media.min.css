@@ -288,9 +288,18 @@
     .footer__inner {
         padding-inline: 15px;
     }
+    .program__accordion-top{
+        font-size: 11px;
+    }
+    .for-whom__img{
+        height: 100%;
+    }
 }
 @media (max-width: 375px) {
     .booking__img::after{
         left: -20px;
+    }
+    .program__accordion-top {
+        font-size: 9px;
     }
 }
