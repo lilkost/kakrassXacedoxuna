@@ -284,3 +284,9 @@
         top: 37px;
     }
 }
+
+@media (max-width: 375px) {
+    .booking__img::after{
+        left: -20px;
+    }
+}
