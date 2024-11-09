@@ -809,3 +809,7 @@ html {
     color: #fff;
     font-family: 'Krasnodar Grotesk Trial en';
 }
+
+body.is-hidden{
+    overflow: hidden;
+}

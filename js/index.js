@@ -49,18 +49,17 @@ if(document.querySelector('.burger-btn')) {
 
     burgerBtn.addEventListener("click", ()=> {
         header.classList.toggle("is-active");
+        document.querySelector("body").classList.toggle("is-hidden");
     })
 }
-// позиционирование бегущей строки
 
+// позиционирование бегущей строки
 if(document.querySelector(".top__box")) {
     document.addEventListener("DOMContentLoaded", ()=> {
         const topBox = document.querySelector(".top__box");
         const textNode = document.querySelector(".top__texts");
         const paragraphNodes = textNode.querySelectorAll('p');
         const marquee = document.querySelector(".top__marquee");
-    
-    
     
         const setPositionBLock = () => {
             const size = {
@@ -69,8 +68,6 @@ if(document.querySelector(".top__box")) {
             }
     
             let posY = size.parent - size.last;
-    
-            console.log(size, posY)
     
             marquee.style = ` --posY: ${posY}px; overflow: hidden;`;
         }
@@ -93,6 +90,7 @@ if(document.querySelector(".header__nav-item")) {
     links.forEach(link=> {
         link.addEventListener("click", ()=> {
             document.querySelector(".header").classList.remove("is-active");
+            document.querySelector("body").classList.remove("is-hidden");
         })
     })
 }
