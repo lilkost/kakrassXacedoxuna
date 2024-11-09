@@ -102,7 +102,8 @@
         text-align: left;
     }
 
-    .booking__text{
+    .booking__text,
+    .rewiew__text{
         font-size: 12px;
         font-weight: 300;
         line-height: 14.88px;
