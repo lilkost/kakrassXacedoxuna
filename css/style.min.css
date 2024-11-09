@@ -547,7 +547,8 @@ body {
 .program__accordion-btn::before{
     width: 10px;
     height: 1px;
-    left: 1px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .program__accordion-btn::after{
     width: 1px;
@@ -776,4 +777,10 @@ body {
     display: none;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.footer a,
+.footer p,
+.footer span {
+    color: #fff !important;
 }
