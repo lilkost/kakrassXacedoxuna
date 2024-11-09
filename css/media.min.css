@@ -96,7 +96,7 @@
         line-height: 14.88px;
     }
     .program__accordion-body{
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 300;
         line-height: 17.07px;
         text-align: left;
@@ -294,6 +294,7 @@
     .program__accordion-top{
         font-size: 11px;
     }
+    
     .for-whom__img{
         height: 100%;
     }
@@ -307,5 +308,8 @@
     }
     .for-whom__img::before{
         left: -15px;
+    }
+    .program__accordion-body{
+        font-size: 9px;
     }
 }
