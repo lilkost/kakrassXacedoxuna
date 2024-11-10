@@ -400,7 +400,7 @@ body {
     background-color: #000 !important; 
     padding-block: 15px;
     color: white !important;
-    top: calc(var(--posY) - 50px);
+    top: calc(var(--posY) + 40px);
 }
 
 .top__marquee > div {
