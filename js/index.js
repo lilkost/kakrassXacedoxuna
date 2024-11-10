@@ -1,8 +1,8 @@
 // включение бегущей строки
 new Marquee('marquee', {
-    speed: 1
+    speed: 1,
     loops: true,
-    process: .4// default: .5
+    process: .45// default: .5
 });
 // активация модалок с видео
 Fancybox.bind("[data-fancybox]", {
