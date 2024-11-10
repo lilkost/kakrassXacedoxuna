@@ -582,7 +582,8 @@ body {
     transition: all 300ms ease;
 }
 
-.program__accordion-body ul li {
+.program__accordion-body ul li,
+.program__accordion-body ul {
     list-style: none;
 }
 
@@ -837,3 +838,4 @@ body.is-hidden{
     margin: 20px auto 0;
     text-align: center;
 }
+
